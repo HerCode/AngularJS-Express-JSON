@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="OlympicsApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/design.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poly" rel="stylesheet">
+    <script src="../vendors/angular.min.js"></script>
+    <script src="../scripts/client.js"></script>
+    <title>AngularJS-Express-JSON</title>
+  </head>
+  <body ng-controller="MainController">
+    <div class="Main">
+      <div class="container-fluid">
+        <header id="header">
+      <h1>And the athelete is...</h1>
+    </header>
+
+    <table>
+        <div class="button-container">
+      <button id="button" ng-click="randomAthletes()" class="btn btn-success-outline">Generate Athletes</button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <table>
+        <tr>
+        <td>
+          <h2>Archery</h2>
+          Name: {{athlete.name}}<br />Location: {{athlete.origin}}<br />
+        </td>
+       </tr>
+       <tr>
+        <td>
+          <h2>Canoe/Kayak</h2>
+          Name: {{athlete.name}}<br />Location: {{athlete.origin}}<br />
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <h2>Modern Pentathalon</h2>
+          Name: {{athlete.name}}<br />Location: {{athlete.origin}}<br />
+        </td>
+       </tr>
+       <tr>
+       <td>
+          <h2>Synchronized Swimming</h2>
+          Name: {{athlete.name}}<br />Location: {{athlete.origin}}<br />
+        </td>
+       </tr>
+       <tr>
+       <td>
+           <h2>Taekwondo</h2>
+           Name: {{athlete.name}}<br />Location: {{athlete.origin}}<br />
+         </td>
+      </tr>
+    </table>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+  </body>
+</html>

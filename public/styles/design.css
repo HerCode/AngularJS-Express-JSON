@@ -1,0 +1,55 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	/*background-image: url('./styles/Background.jpg');*/
+  background-color: 	rgb(127,255,0);
+}
+
+#button {
+  font-family: Poly, sans-serif;;
+  font-size: 30px;
+  border-radius: 5px;
+  /*border-color: rgb(0,0,255);
+  background: rgba(0, 82, 165, 1);*/
+  padding: 0.25em;
+  margin: 0.25em;
+  box-shadow: 2px 1px 1px rgba(0, 32, 115, 1);
+}
+
+.container {
+  background-size: inherit;
+}
+
+tr td {
+  background-color: rgba(255, 255 , 255, 0.75);
+  padding: 5px;
+  list-style: none;
+  border-radius: 10px;
+  margin: 5px;
+  float: center;
+  display: inline-block;
+}
+
+
+h2 {
+  border-bottom: ;
+}
